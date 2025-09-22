@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // Serve static frontend from "public" folder
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "Public")));
 
 // Simple in-memory counter
 let counter = 0;
