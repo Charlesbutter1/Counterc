@@ -34,7 +34,7 @@ app.post("/api/counter/clear", (req, res) => {
 
 // Fallback: serve index.html for unknown routes (SPA support)
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "Public", "index.html"));
 });
 
 // Start server
